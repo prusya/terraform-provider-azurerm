@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/clients"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/automation/parse"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/timeouts"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/clients"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/automation/parse"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/timeouts"
 )
 
 func importAutomationConnection(connectionType string) func(d *schema.ResourceData, meta interface{}) (data []*schema.ResourceData, err error) {

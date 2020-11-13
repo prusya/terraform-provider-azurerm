@@ -3,7 +3,7 @@ package parse
 import (
 	"fmt"
 
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/sql/parse"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/sql/parse"
 )
 
 func SqlDatabaseID(i interface{}, k string) (warnings []string, errors []error) {

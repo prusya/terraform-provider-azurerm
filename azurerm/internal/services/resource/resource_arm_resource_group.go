@@ -8,14 +8,14 @@ import (
 	"github.com/Azure/azure-sdk-for-go/services/resources/mgmt/2020-06-01/resources"
 	"github.com/hashicorp/go-azure-helpers/response"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/helpers/azure"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/helpers/tf"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/clients"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/location"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/tags"
-	azSchema "github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/tf/schema"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/timeouts"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/utils"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/helpers/azure"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/helpers/tf"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/clients"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/location"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/tags"
+	azSchema "github.com/prusya/terraform-provider-azurerm/azurerm/internal/tf/schema"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/timeouts"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/utils"
 )
 
 func resourceArmResourceGroup() *schema.Resource {

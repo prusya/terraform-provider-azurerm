@@ -3,7 +3,7 @@ package privatedns
 import (
 	"fmt"
 
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/helpers/validate"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/helpers/validate"
 )
 
 func ValidatePrivateDnsZoneGroupName(i interface{}, k string) (_ []string, errors []error) {

@@ -5,13 +5,13 @@ import (
 	"time"
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/helpers/azure"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/clients"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/location"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/synapse/validate"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/tags"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/timeouts"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/utils"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/helpers/azure"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/clients"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/location"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/synapse/validate"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/tags"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/timeouts"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/utils"
 )
 
 func dataSourceSynapseWorkspace() *schema.Resource {

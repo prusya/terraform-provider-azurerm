@@ -6,7 +6,7 @@ import (
 	"strconv"
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/validation"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/network/parse"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/network/parse"
 )
 
 func FirewallPolicyName() func(i interface{}, k string) (warnings []string, errors []error) {

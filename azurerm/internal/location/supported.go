@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/Azure/go-autorest/autorest/azure"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/sdk"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/sdk"
 )
 
 // supportedLocations can be (validly) nil - as such this shouldn't be relied on

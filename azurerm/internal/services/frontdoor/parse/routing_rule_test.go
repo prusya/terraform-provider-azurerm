@@ -3,7 +3,7 @@ package parse
 import (
 	"testing"
 
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/resourceid"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/resourceid"
 )
 
 var _ resourceid.Formatter = RoutingRuleId{}

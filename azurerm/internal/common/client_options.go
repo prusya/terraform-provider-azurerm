@@ -10,8 +10,8 @@ import (
 	"github.com/Azure/go-autorest/autorest/azure"
 	"github.com/hashicorp/go-azure-helpers/sender"
 	"github.com/hashicorp/terraform-plugin-sdk/meta"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/features"
-	"github.com/terraform-providers/terraform-provider-azurerm/version"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/features"
+	"github.com/prusya/terraform-provider-azurerm/version"
 )
 
 type ClientOptions struct {

@@ -3,7 +3,7 @@ package validate
 import (
 	"fmt"
 
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/compute/parse"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/compute/parse"
 )
 
 func DedicatedHostID(i interface{}, k string) (warnings []string, errors []error) {

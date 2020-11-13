@@ -5,10 +5,10 @@ import (
 
 	"github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2020-06-01/compute"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/clients"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/features"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/compute/parse"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/timeouts"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/clients"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/features"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/compute/parse"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/timeouts"
 )
 
 func importOrchestratedVirtualMachineScaleSet(d *schema.ResourceData, meta interface{}) (data []*schema.ResourceData, err error) {

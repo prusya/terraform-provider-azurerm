@@ -2,7 +2,7 @@ package client
 
 import (
 	"github.com/Azure/azure-sdk-for-go/services/devspaces/mgmt/2019-04-01/devspaces"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/common"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/common"
 )
 
 // TODO: this can probably be folded into Containers

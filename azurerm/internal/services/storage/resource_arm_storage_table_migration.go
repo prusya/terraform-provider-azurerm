@@ -6,8 +6,8 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/validation"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/helpers/azure"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/clients"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/helpers/azure"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/clients"
 )
 
 // the schema schema was used for both V0 and V1

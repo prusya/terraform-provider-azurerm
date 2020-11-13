@@ -1,8 +1,8 @@
 package parse
 
 import (
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/helpers/azure"
-	accountParser "github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/storage/parsers"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/helpers/azure"
+	accountParser "github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/storage/parsers"
 )
 
 type WorkspaceId struct {
@@ -31,7 +31,7 @@ func WorkspaceID(input string) (*WorkspaceId, error) {
 	return &workspace, nil
 }
 
-// TODO -- use parse function "github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/storage/parsers".ParseAccountID
+// TODO -- use parse function "github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/storage/parsers".ParseAccountID
 // when issue https://github.com/Azure/azure-rest-api-specs/issues/8323 is addressed
 func AccountIDCaseDiffSuppress(input string) (*accountParser.AccountID, error) {
 	id, err := azure.ParseAzureResourceID(input)

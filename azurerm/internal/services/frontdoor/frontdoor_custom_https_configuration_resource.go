@@ -8,15 +8,15 @@ import (
 
 	"github.com/Azure/azure-sdk-for-go/services/frontdoor/mgmt/2020-01-01/frontdoor"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/helpers/azure"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/clients"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/locks"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/frontdoor/migration"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/frontdoor/parse"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/frontdoor/validate"
-	azSchema "github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/tf/schema"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/timeouts"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/utils"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/helpers/azure"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/clients"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/locks"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/frontdoor/migration"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/frontdoor/parse"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/frontdoor/validate"
+	azSchema "github.com/prusya/terraform-provider-azurerm/azurerm/internal/tf/schema"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/timeouts"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/utils"
 )
 
 func resourceArmFrontDoorCustomHttpsConfiguration() *schema.Resource {

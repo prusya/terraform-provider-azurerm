@@ -3,7 +3,7 @@ package validate
 import (
 	"fmt"
 
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/apimanagement/parse"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/apimanagement/parse"
 )
 
 func ApiManagementLoggerID(i interface{}, k string) (warnings []string, errors []error) {

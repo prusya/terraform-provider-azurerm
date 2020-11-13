@@ -3,7 +3,7 @@ package network
 import (
 	"fmt"
 
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/helpers/azure"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/helpers/azure"
 )
 
 // NOTE: there's some nice things we can do with this around validation

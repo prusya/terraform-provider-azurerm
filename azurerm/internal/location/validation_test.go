@@ -3,7 +3,7 @@ package location
 import (
 	"testing"
 
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/features"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/features"
 )
 
 func TestEnhancedValidationDisabled(t *testing.T) {

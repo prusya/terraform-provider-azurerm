@@ -3,13 +3,13 @@ package migration
 import (
 	"log"
 
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/location"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/location"
 
 	"github.com/Azure/azure-sdk-for-go/services/cdn/mgmt/2019-04-15/cdn"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/helpers/azure"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/helpers/suppress"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/cdn/parse"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/helpers/azure"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/helpers/suppress"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/cdn/parse"
 )
 
 func CdnEndpointV0Schema() *schema.Resource {

@@ -4,7 +4,7 @@ import (
 	analytics "github.com/Azure/azure-sdk-for-go/services/datalake/analytics/mgmt/2016-11-01/account"
 	"github.com/Azure/azure-sdk-for-go/services/datalake/store/2016-11-01/filesystem"
 	store "github.com/Azure/azure-sdk-for-go/services/datalake/store/mgmt/2016-11-01/account"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/common"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/common"
 )
 
 type Client struct {

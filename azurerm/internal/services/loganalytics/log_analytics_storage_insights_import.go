@@ -2,7 +2,7 @@ package loganalytics
 
 import (
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/loganalytics/parse"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/loganalytics/parse"
 )
 
 func logAnalyticsStorageInsightsImporter(d *schema.ResourceData, meta interface{}) ([]*schema.ResourceData, error) {

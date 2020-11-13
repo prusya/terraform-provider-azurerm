@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"regexp"
 
-	loganalyticsParse "github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/loganalytics/parse"
+	loganalyticsParse "github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/loganalytics/parse"
 )
 
 type SentinelAlertRuleId struct {

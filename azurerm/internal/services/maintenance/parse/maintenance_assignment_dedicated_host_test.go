@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	parseCompute "github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/compute/parse"
+	parseCompute "github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/compute/parse"
 )
 
 func TestMaintenanceAssignmentDedicatedHostID(t *testing.T) {

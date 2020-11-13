@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/helpers/validate"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/postgres/parse"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/helpers/validate"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/postgres/parse"
 )
 
 func PostgreSQLServerName(i interface{}, k string) (_ []string, errors []error) {

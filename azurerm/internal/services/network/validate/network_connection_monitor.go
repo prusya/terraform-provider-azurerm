@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/network/parse"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/network/parse"
 )
 
 func NetworkConnectionMonitorID(i interface{}, k string) (warnings []string, errors []error) {

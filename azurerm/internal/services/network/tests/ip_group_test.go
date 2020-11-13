@@ -3,7 +3,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/network"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/network"
 )
 
 func TestParseIpGroup(t *testing.T) {

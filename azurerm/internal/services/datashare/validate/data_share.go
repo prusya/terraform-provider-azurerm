@@ -6,9 +6,9 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/validation"
-	dataLakeParse "github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/datalake/parse"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/datashare/parse"
-	StorageParse "github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/storage/parsers"
+	dataLakeParse "github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/datalake/parse"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/datashare/parse"
+	StorageParse "github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/storage/parsers"
 )
 
 func DataShareAccountName() schema.SchemaValidateFunc {

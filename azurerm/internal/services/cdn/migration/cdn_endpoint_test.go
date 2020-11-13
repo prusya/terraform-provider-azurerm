@@ -3,7 +3,7 @@ package migration
 import (
 	"testing"
 
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/utils"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/utils"
 )
 
 func TestCdnEndpointV1ToV2(t *testing.T) {

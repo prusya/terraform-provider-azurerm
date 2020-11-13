@@ -2,7 +2,7 @@ package network
 
 import (
 	"github.com/Azure/azure-sdk-for-go/services/network/mgmt/2020-05-01/network"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/utils"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/utils"
 )
 
 type networkInterfaceUpdateInformation struct {

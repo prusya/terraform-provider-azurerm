@@ -6,8 +6,8 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/validation"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/logic/parse"
-	networkParse "github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/network/parse"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/logic/parse"
+	networkParse "github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/network/parse"
 )
 
 func IntegrationAccountName() schema.SchemaValidateFunc {

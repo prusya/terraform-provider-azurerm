@@ -4,7 +4,7 @@ import (
 	providers "github.com/Azure/azure-sdk-for-go/profiles/2017-03-09/resources/mgmt/resources"
 	"github.com/Azure/azure-sdk-for-go/services/resources/mgmt/2016-09-01/locks"
 	"github.com/Azure/azure-sdk-for-go/services/resources/mgmt/2020-06-01/resources"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/common"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/common"
 )
 
 type Client struct {

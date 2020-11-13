@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/network/parse"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/network/parse"
 )
 
 func VirtualHubRouteTableID(i interface{}, k string) (warnings []string, errors []error) {

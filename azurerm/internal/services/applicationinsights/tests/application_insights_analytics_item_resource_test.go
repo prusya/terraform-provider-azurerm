@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/applicationinsights"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/applicationinsights"
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/terraform"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/acceptance"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/clients"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/acceptance"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/clients"
 )
 
 func TestAccAzureRMApplicationInsightsAnalyticsItem_basic(t *testing.T) {

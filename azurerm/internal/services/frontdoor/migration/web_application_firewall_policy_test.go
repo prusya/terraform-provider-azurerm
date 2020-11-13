@@ -3,7 +3,7 @@ package migration
 import (
 	"testing"
 
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/utils"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/utils"
 )
 
 func TestWebApplicationFirewallPolicyV0ToV1(t *testing.T) {

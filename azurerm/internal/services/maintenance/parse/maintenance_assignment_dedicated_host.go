@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"regexp"
 
-	parseCompute "github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/compute/parse"
+	parseCompute "github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/compute/parse"
 )
 
 type MaintenanceAssignmentDedicatedHostId struct {

@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/network/parse"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/network/parse"
 )
 
 // VirtualNetworkID validates that the specified ID is a valid Virtual Network ID

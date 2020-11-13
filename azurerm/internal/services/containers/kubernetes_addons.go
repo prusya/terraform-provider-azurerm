@@ -8,8 +8,8 @@ import (
 	"github.com/Azure/go-autorest/autorest/azure"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/validation"
-	azureHelpers "github.com/terraform-providers/terraform-provider-azurerm/azurerm/helpers/azure"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/utils"
+	azureHelpers "github.com/prusya/terraform-provider-azurerm/azurerm/helpers/azure"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/utils"
 )
 
 const (
@@ -28,15 +28,15 @@ const (
 // omitted from this list an addon/environment combination will be supported
 var unsupportedAddonsForEnvironment = map[string][]string{
 	azure.ChinaCloud.Name: {
-		aciConnectorKey,           // https://github.com/terraform-providers/terraform-provider-azurerm/issues/5510
-		azurePolicyKey,            // https://github.com/terraform-providers/terraform-provider-azurerm/issues/6462
-		httpApplicationRoutingKey, // https://github.com/terraform-providers/terraform-provider-azurerm/issues/5960
-		kubernetesDashboardKey,    // https://github.com/terraform-providers/terraform-provider-azurerm/issues/7487
+		aciConnectorKey,           // https://github.com/prusya/terraform-provider-azurerm/issues/5510
+		azurePolicyKey,            // https://github.com/prusya/terraform-provider-azurerm/issues/6462
+		httpApplicationRoutingKey, // https://github.com/prusya/terraform-provider-azurerm/issues/5960
+		kubernetesDashboardKey,    // https://github.com/prusya/terraform-provider-azurerm/issues/7487
 	},
 	azure.USGovernmentCloud.Name: {
-		azurePolicyKey,            // https://github.com/terraform-providers/terraform-provider-azurerm/issues/6702
-		httpApplicationRoutingKey, // https://github.com/terraform-providers/terraform-provider-azurerm/issues/5960
-		kubernetesDashboardKey,    // https://github.com/terraform-providers/terraform-provider-azurerm/issues/7136
+		azurePolicyKey,            // https://github.com/prusya/terraform-provider-azurerm/issues/6702
+		httpApplicationRoutingKey, // https://github.com/prusya/terraform-provider-azurerm/issues/5960
+		kubernetesDashboardKey,    // https://github.com/prusya/terraform-provider-azurerm/issues/7136
 	},
 }
 

@@ -5,7 +5,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/validation"
 	uuid "github.com/satori/go.uuid"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/helpers/suppress"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/helpers/suppress"
 )
 
 func SchemaKeyVaultCertificatePermissions() *schema.Schema {

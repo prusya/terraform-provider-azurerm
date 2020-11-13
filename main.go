@@ -4,7 +4,7 @@ import (
 	"log"
 
 	"github.com/hashicorp/terraform-plugin-sdk/plugin"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm"
+	"github.com/prusya/terraform-provider-azurerm/azurerm"
 )
 
 func main() {

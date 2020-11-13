@@ -3,7 +3,7 @@ package validate
 import (
 	"fmt"
 
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/tags"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/tags"
 )
 
 func TagsWithLowerCaseKey(v interface{}, k string) (warnings []string, errors []error) {

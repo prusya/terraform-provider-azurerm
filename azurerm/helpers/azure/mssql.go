@@ -3,7 +3,7 @@ package azure
 import (
 	"fmt"
 
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/helpers/validate"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/helpers/validate"
 )
 
 // Your server name can contain only lowercase letters, numbers, and '-', but can't start or end with '-' or have more than 63 characters.

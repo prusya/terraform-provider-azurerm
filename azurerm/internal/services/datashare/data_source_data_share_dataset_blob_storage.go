@@ -6,11 +6,11 @@ import (
 
 	"github.com/Azure/azure-sdk-for-go/services/datashare/mgmt/2019-11-01/datashare"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/clients"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/datashare/helper"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/datashare/parse"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/datashare/validate"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/timeouts"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/clients"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/datashare/helper"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/datashare/parse"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/datashare/validate"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/timeouts"
 )
 
 func dataSourceDataShareDatasetBlobStorage() *schema.Resource {

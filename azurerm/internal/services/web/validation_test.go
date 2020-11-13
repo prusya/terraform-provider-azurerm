@@ -3,7 +3,7 @@ package web
 import (
 	"testing"
 
-	webValidate "github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/web/validate"
+	webValidate "github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/web/validate"
 )
 
 func TestAzureRMAppServicePlanName_validation(t *testing.T) {

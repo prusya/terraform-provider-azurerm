@@ -6,7 +6,7 @@ import (
 
 	"github.com/Azure/azure-sdk-for-go/services/frontdoor/mgmt/2020-01-01/frontdoor"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/frontdoor/parse"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/frontdoor/parse"
 )
 
 func customizeHttpsConfigurationCustomizeDiff(d *schema.ResourceDiff, v interface{}) error {

@@ -9,10 +9,10 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/terraform"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/acceptance"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/clients"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/batch/parse"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/utils"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/acceptance"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/clients"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/batch/parse"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/utils"
 )
 
 func TestAccBatchPool_basic(t *testing.T) {
@@ -797,7 +797,7 @@ resource "azurerm_batch_pool" "test" {
     }
 
     resource_file {
-      http_url  = "https://raw.githubusercontent.com/terraform-providers/terraform-provider-azurerm/master/README.md"
+      http_url  = "https://raw.githubusercontent.com/prusya/terraform-provider-azurerm/master/README.md"
       file_path = "README.md"
     }
   }

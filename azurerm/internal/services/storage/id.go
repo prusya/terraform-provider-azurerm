@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/storage/parsers"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/storage/parsers"
 )
 
 func AccountIDSchema() *schema.Schema {

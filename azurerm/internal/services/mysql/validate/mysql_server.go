@@ -3,8 +3,8 @@ package validate
 import (
 	"fmt"
 
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/helpers/validate"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/mysql/parse"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/helpers/validate"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/mysql/parse"
 )
 
 func MySQLServerID(i interface{}, k string) (warnings []string, errors []error) {

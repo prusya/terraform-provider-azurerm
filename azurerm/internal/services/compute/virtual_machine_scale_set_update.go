@@ -6,9 +6,9 @@ import (
 	"log"
 
 	"github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2020-06-01/compute"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/compute/client"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/compute/parse"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/utils"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/compute/client"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/compute/parse"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/utils"
 )
 
 type virtualMachineScaleSetUpdateMetaData struct {

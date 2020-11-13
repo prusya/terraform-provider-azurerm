@@ -3,7 +3,7 @@ package parse
 import (
 	"testing"
 
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/storage/parsers"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/storage/parsers"
 )
 
 func TestWorkspaceID(t *testing.T) {

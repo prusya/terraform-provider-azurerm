@@ -3,7 +3,7 @@ package validate
 import (
 	"fmt"
 
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/compute/parse"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/compute/parse"
 )
 
 func VirtualMachineScaleSetID(i interface{}, k string) (s []string, es []error) {

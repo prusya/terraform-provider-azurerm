@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/synapse/parse"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/synapse/parse"
 )
 
 func SynapseWorkspaceName(i interface{}, k string) (warnings []string, errors []error) {

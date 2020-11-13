@@ -1,6 +1,6 @@
 package parse
 
-import "github.com/terraform-providers/terraform-provider-azurerm/azurerm/helpers/azure"
+import "github.com/prusya/terraform-provider-azurerm/azurerm/helpers/azure"
 
 type KubernetesClusterId struct {
 	Name          string

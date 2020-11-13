@@ -9,7 +9,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/provider"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/provider"
 )
 
 func main() {

@@ -10,17 +10,17 @@ import (
 	"github.com/Azure/azure-sdk-for-go/services/storage/mgmt/2019-06-01/storage"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/validation"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/helpers/azure"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/helpers/suppress"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/helpers/tf"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/clients"
-	keyVaultValidate "github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/keyvault/validate"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/machinelearning/parse"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/machinelearning/validate"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/tags"
-	azSchema "github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/tf/schema"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/timeouts"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/utils"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/helpers/azure"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/helpers/suppress"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/helpers/tf"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/clients"
+	keyVaultValidate "github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/keyvault/validate"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/machinelearning/parse"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/machinelearning/validate"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/tags"
+	azSchema "github.com/prusya/terraform-provider-azurerm/azurerm/internal/tf/schema"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/timeouts"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/utils"
 )
 
 func resourceArmMachineLearningWorkspace() *schema.Resource {
@@ -354,7 +354,7 @@ func validateStorageAccount(ctx context.Context, client *storage.AccountsClient,
 		return fmt.Errorf("Error validating Storage Account: Empty ID")
 	}
 
-	// TODO -- use parse function "github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/storage/parsers".ParseAccountID
+	// TODO -- use parse function "github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/storage/parsers".ParseAccountID
 	// when issue https://github.com/Azure/azure-rest-api-specs/issues/8323 is addressed
 	id, err := parse.AccountIDCaseDiffSuppress(accountID)
 	if err != nil {

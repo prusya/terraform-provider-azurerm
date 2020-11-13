@@ -3,7 +3,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/services/securitycenter"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/services/securitycenter"
 )
 
 func TestAzureRMSecurityCenterSubscriptionPricingMigrateState(t *testing.T) {

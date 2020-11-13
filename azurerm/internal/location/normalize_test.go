@@ -3,7 +3,7 @@ package location
 import (
 	"testing"
 
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/utils"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/utils"
 )
 
 func TestNormalizeLocation(t *testing.T) {

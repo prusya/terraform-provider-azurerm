@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/hashicorp/terraform-plugin-sdk/terraform"
-	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/internal/clients"
+	"github.com/prusya/terraform-provider-azurerm/azurerm/internal/clients"
 )
 
 func resourceVirtualMachineScaleSetMigrateState(v int, is *terraform.InstanceState, meta interface{}) (*terraform.InstanceState, error) {
